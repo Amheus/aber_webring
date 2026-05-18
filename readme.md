@@ -4,7 +4,7 @@
 A [webring](https://en.wikipedia.org/wiki/Webring) is a collection of websites in a circular structure, each one has left and right buttons leading to the next websites in the ring, its essentially just a fun easter-egg to hide on your site. It lets people in your community see your site and gives you a way to see other peoples. We set it up to encourage our members to build and host personal websites, if you don't have one, you should give it a go!
 
 ## How does this work?
-The code here is a service we have running on a server at [aberwebr.ing](https://aberwebr.ing). It holds links to each website and an identifier for each. Your website then just makes a request to it with its identifier and a statement whether to go left or right, it'll then redirect you to the next site.  
+The code here is a service we have running on a server at [aberwebr.ing](https://aberwebr.ing). It holds links to each website and an identifier for each. Your website then just makes a request to it with its identifier and a statement whether to go left or right, it'll then redirect you to the next site.
 
 ```https://aberwebr.ing/AlicesWebsite/left```
 
